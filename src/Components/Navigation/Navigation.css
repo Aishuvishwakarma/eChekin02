@@ -1,0 +1,20 @@
+nav{
+    height: 100px;
+}
+nav h2{
+    color: #ffc107;
+    font-size: 1.5rem;
+}
+nav ul button{
+    width: 120px;
+    margin-left: 70px;
+    color: #fff;
+}
+.navbar-nav li{
+    list-style: none;
+}
+@media screen and (max-width : 600px){
+    ul,ul li{
+        display: none;
+    }
+}

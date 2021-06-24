@@ -1,0 +1,163 @@
+#landing{
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+}
+#landing .container{
+    height: 100%;
+}
+#landing .container .row{
+    height: 100%;
+}
+#landing .container .row .col{
+    position: relative;
+    height: 100%;
+}
+#landing .container .row .col h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+#landing .container .row .col p{
+    font-size: .8rem;
+    letter-spacing: .5;
+    font-weight: 300;
+    color: #fff;
+    margin: 20px 0;
+}
+.buttons{
+    width: 50%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button:nth-child(1){
+    background-color: #ffc107;
+    padding: 0 15px;
+}
+.buttons button:nth-child(2){
+    border-color: #ffc107;
+    width: 100px;
+}
+#svgparent{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.svgdiv{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.svgdiv:nth-child(2){
+bottom: 0;
+}
+.svgimg{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+}
+#svgimg1{
+    left: 12%;
+    top: 32%;
+}
+#svgimg2{
+    right: 40%;
+    top: 3%;
+}
+#svgimg3{
+    right: 45%;
+    bottom: 4%;
+}
+.svgimg img{
+    width: 80px;
+    height: 80px;
+}
+
+#landing .svgdiv .img{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.svgdiv .img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.svgdiv button{
+    height: 40px;
+}
+@media screen and (max-width : 600px){
+    #landing{
+        width: 100%;
+        height: 50vh;
+        background-color: #fff;
+    }
+    
+#landing .container .row .col h3{
+    font-size: 1.5rem;
+}
+#landing .container .row .col p{
+    font-size: .5rem;
+}
+.buttons{
+    width: 100%;
+    height: 30px;
+}
+.buttons button:nth-child(1){
+    font-size: 10px;
+    padding: 0 15px;
+}
+.buttons button:nth-child(2){
+    font-size: 12px;
+    width: 80px;
+}
+#svgparent{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(165, 41, 41); */
+    position: relative;
+}
+
+.svgdiv:nth-child(2){
+bottom: 0;
+}
+.svgimg{
+    width: 40px;
+    height: 40px;
+}
+.svgimg img{
+    width: 40px;
+    height: 40px;
+}
+#svgimg1{
+    left: 8%;
+    top: 28%;
+}
+#svgimg2{
+    right: 50%;
+    top: 12%;
+    
+}
+#svgimg3{
+    right: 35%;
+    bottom: 13%;
+}
+#landing .svgdiv .img{
+    width: 80px;
+    height: 80px;
+}
+.svgdiv button{
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 9px;
+}
+}

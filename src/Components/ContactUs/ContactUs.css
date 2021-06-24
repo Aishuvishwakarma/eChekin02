@@ -1,0 +1,75 @@
+.contact{
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+}
+.form{
+    min-height: 100vh ;
+}
+#formsctn{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+}
+#formsctn form{
+width: 100%;
+height: 100%;
+padding: 20px 20px;
+}
+form h2{
+    font-size: 20px;
+    margin-top: 5px;
+}
+form h2 span{
+    color: #ffc107;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border-color: rgb(128, 128, 128);
+    margin-top: 10px;
+}
+form input[type = 'submit']{
+    background-color: #ffc107;
+    color: #f2f2f2;
+    border: none;
+}
+form #msg{
+    height: 150px;
+}
+#cntactdtl p{
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+}
+#cntactdtl p span{
+    font-weight: 400;
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+}
+.contact .line{
+    width: 150px;
+    height: 6px;
+    background-color: #ffc107;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width : 600px) {
+    .form{
+        height: 75vh;
+    }
+    #formsctn{
+        width: 80%;
+        height: 90%;
+    }
+    form h2{
+    font-size: 15px;
+}
+form input{
+    height: 45px;
+}
+}

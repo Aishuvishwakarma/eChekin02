@@ -1,0 +1,71 @@
+#Itroduction{
+    width: 100%;
+    height: 75%;
+    background-color: #fff;
+}
+#imgmbl{
+    width: 300px;
+    height: 400px;
+}
+
+#heading{
+    font-size: 28px;
+}
+
+#text h2{
+    font-size: 20px;
+}
+#text h2{
+    font-size: 15px;
+}
+#Itroduction #text button{
+    background-color: #ffc107;
+    height: 40px;
+    padding: 2px 15px;
+}
+#icon{
+    font-size: 55px;
+}
+#txt{
+font-size: 15px;
+margin-top: 10px;
+text-align: center;
+}
+#clientImg{
+    width: 200px;
+    height: 70px;
+}
+#iconSection{
+    height: 300px;
+}
+@media screen and (max-width : 600px){
+    
+#imgmbl{
+    width: 200px;
+    height: 300px;
+}
+#text{
+    text-align: left;
+}
+#text p{
+    font-size: 10px;
+}
+#Itroduction #text button{
+    height: 30px;
+    padding: 2px 15px;
+    font-size: 12px;
+}
+#icon{
+    font-size: 30px;
+}
+#txt{
+    font-size: 10px;
+    }
+    #iconSection{
+        height: 300px;
+    }
+    #heading{
+        font-size: 25px;
+    }
+    
+}

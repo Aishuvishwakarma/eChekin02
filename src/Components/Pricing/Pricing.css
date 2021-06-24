@@ -1,0 +1,73 @@
+.pricing{
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+}
+.priningsctn{
+    height: 100vh;
+}
+.pricingbx{
+    padding: 25px 30px;
+    width: 45%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+}
+.pack{
+    width:70px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgb(180, 213, 252);
+    margin-right: 20px;
+}
+.priningsctn h2{
+    color:  rgb(102, 171, 255) ;
+}
+#texthead{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#texthead span{
+    font-size: 20px;
+}
+.priningsctn .line{
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #ffc107;
+    margin: 1rem 0;
+}
+
+ul li{
+margin-left: 15px;
+list-style: decimal;
+font-weight: 500;
+font-size: 17px;
+color: rgb(41, 41, 41);
+margin-bottom: 15px;
+}
+.priningsctn #btn{
+    width:150px;
+    height: 50px;
+    background-color: #ffc107;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.priningsctn i{
+    font-size: 22px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 15px;
+}
+@media screen and (max-width : 600px) {
+    .priningsctn{
+        height: 75vh;
+    }
+    .pricingbx{
+        width: 80%;
+        height: 90%;
+    }
+}
