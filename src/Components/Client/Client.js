@@ -8,9 +8,9 @@ function Client() {
     return (
      <div className="container-fluid" id="client">
      <div className="col-12 p-5 container h-100">
-    <div id='content' className="row  d-flex justify-content-center align-items-center">
+    <div id='content' className="row-12  d-flex justify-content-center align-items-center">
       <div className="col">
-      <div id='clientContent'  className="col d-flex flex-column justify-content-center">
+      <div id='clientContent'  className="row d-flex flex-column justify-content-center">
         <h2>Contactless visitor system</h2>
         <h3>How do we work?</h3>
         <p>Scan QR code at the front desk/Resception.</p>

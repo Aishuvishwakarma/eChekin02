@@ -15,7 +15,7 @@ function Footer() {
                 <i class="fab fa-instagram"></i>
                 </div>
             </div>
-            <div className="col col-4">
+            <div className="col-4">
             <h4>Product</h4>
             <Link  className='footerLinks'>Security</Link>
             <Link className='footerLinks'>Compliance</Link>

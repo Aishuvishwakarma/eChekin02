@@ -5,7 +5,7 @@ function Navigation() {
 
 
   return (
- <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
+ <nav className="navbar p-5 navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
    <div className="logo">
       <h2>eCheckin</h2>
    </div> 
@@ -16,7 +16,7 @@ function Navigation() {
             activeClassName='active'
             activeStyle={{color: '#ffc107'}}
             className="nav-link"
-            to='/' >Home
+            to='/eChekin02' >Home
             </NavLink>
           </li>
           <li className="nav-item">

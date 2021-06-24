@@ -28,20 +28,20 @@ function Introduction() {
     
     </div>
     </div>
-    <div className="row bg-light" id='iconSection' >
+    <div className="row" id='iconSection' >
        <div className="container d-flex flex-column justify-content-center align-items-center text-center" >
           <h2 id='heading'>What eCheckin does for you</h2>
-          <div className="col-8 d-flex p-3 align-items-center justify-content-center">
-              <div className="col-4 bg-light p-3 flex-column  d-flex align-items-center justify-content-center">
+          <div className="col-9 mt-4 d-flex p-3 align-items-center justify-content-center">
+              <div className="col-4  p-3 flex-column  d-flex align-items-center justify-content-center">
               <i id='icon' class="fas fa-calendar-alt text-primary"></i><p id='txt'>Schedule Meetings</p>
               </div>
-              <div className="col-4 bg-light p-3 flex-column d-flex align-items-center justify-content-center">
+              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
               <i id='icon' class="fas fa-shield-alt text-primary"></i><p id='txt'>Adhar Verification</p>
               </div>
-              <div className="col-4 bg-light p-3 flex-column d-flex align-items-center justify-content-center">
+              <div className="col-4  p-3 flex-column d-flex align-items-center justify-content-center">
               <i id='icon' class="fas fa-cogs text-primary"></i><p id='txt'>Manage Digital Screening</p>
               </div>
-              <div className="col-4 bg-light p-3  flex-column  d-flex align-items-center justify-content-center">
+              <div className="col-4  p-3  flex-column  d-flex align-items-center justify-content-center">
               <i id='icon' class="fas fa-question text-primary"></i><p id='txt'>Covid screening and questionnaire</p>
               </div>
           </div>

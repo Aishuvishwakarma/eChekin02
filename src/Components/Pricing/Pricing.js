@@ -4,15 +4,15 @@ function Pricing() {
     return (
         <>
         <div className="pricing">
-            <div className="container">
-            <div className="row d-flex flex-column p-5 align-items-center text-center">
+            <div className="container col">
+            <div className="col d-flex  flex-column p-3 align-items-center text-center">
             <h2 id="heading">Finally,a visitor management system <br /> that scales with you</h2>
             <p>Unlimited visitors. Unlimited hots. Unlimited kiosks.</p>
             </div>
-            <div className="row d-flex flex-column p-5 align-items-center text-center">
+            <div className="col d-flex flex-column p-5 align-items-center text-center">
             <p style={{fontWeight:'500'}} >start with must-have | (Our most popular return-to-workplace offering)</p>
             </div>
-            <div className="row d-flex flex-column align-items-center  priningsctn">
+            <div className="col d-flex flex-column align-items-center  priningsctn">
             <div className="pricingbx">
                 <div className="col mb-3  d-flex align-items-center">
                 <div className="pack"></div>

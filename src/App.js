@@ -13,12 +13,18 @@ import Pricing from './Components/Pricing/Pricing'
 import Blog from './Components/Blog/Blog'
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
 class App extends Component {
+
+  componentDidMount() {
+   
+}
+
   render() {
+   
     return (
       <BrowserRouter>
        <Navigation/>
        <Switch>
-      <Route exact path="/" render={()=>{
+      <Route exact path="/eChekin02" render={()=>{
         return <>
         <Landing/>
       <Indroduction/>

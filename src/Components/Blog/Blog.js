@@ -137,12 +137,12 @@ function Blog() {
                    </div>
                 </div>
              </div>
-            </div>
+            </div>-
             <div className="subscribe container">
             <div className="row d-flex flex-column p-5 align-items-center text-center">
         <h2 id='heading'>Subscribe</h2>
         <p>Subscribe to our monthly roundup of latest artcles !</p>
-        <div className="cold-flex align-items-center justify-content-center text-center">
+        <div className="col d-flex align-items-center justify-content-center text-center">
         <input type="text" placeholder='Subscribe' />
         <button id="btn">Subscribe</button>
         </div>

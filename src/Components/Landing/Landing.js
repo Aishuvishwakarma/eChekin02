@@ -27,7 +27,7 @@ function Landing() {
             </button>
            </div>
            <div className="svgdiv">
-           <button type="button" class="btn btn-warning mr-3  rounded-pill text-dark">
+           <button type="button" className="btn btn-warning  rounded-pill text-dark">
             <NavLink 
              exact
             style={{textDecoration:'none',color:'#f2f2f2'}}
@@ -47,7 +47,7 @@ function Landing() {
            <h3>Contactless visitor <br />System</h3>
            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
           <div className="buttons">
-          <button type="button" class="btn btn-warning  rounded-pill text-dark">
+          <button type="button" className="btn btn-warning  rounded-pill text-dark">
             <NavLink 
              exact
             style={{textDecoration:'none',color:'#f2f2f2'}}
