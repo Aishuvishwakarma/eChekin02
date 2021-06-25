@@ -11,7 +11,7 @@ function Introduction() {
         <h2 id='heading'>Introducing eChecking</h2>
         <p>An innovative approach to welcom your employees,<br />visitors, and client back to the workplace</p>
     </div>
-     <div className="row d-flex justify-content-center align-items-center">
+     <div className="row-10 d-flex justify-content-center align-items-center">
         <div className="col-5 d-flex justify-content-end align-items-center">
             <img id='imgmbl' src={mobile} alt="" />
         </div>

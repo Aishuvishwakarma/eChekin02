@@ -8,7 +8,7 @@ function CovidSection() {
         <h2 id='heading'>still dont't belive us</h2>
         <p>we are happy to show you our works</p>
        </div>
-       <div id='content' style={{minHeight:'400px'}} className="row-12 d-flex justify-content-center align-items-center">
+       <div id='content' style={{minHeight:'400px'}} className="row">
         <div className="col">
         <div id='covidContent'  className="row-6 d-flex flex-column justify-content-center">
            <div className="line"></div>
@@ -22,7 +22,7 @@ function CovidSection() {
            <button type="button" class="btn btn-warning  rounded-pill text-light mt-3">Read More</button>
          </div>
         </div>
-         <div className="col d-flex align-items-center justify-content-center">
+         <div className="col">
          <div className="covidleft"><img src='https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWluaW1hbGlzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' alt="" /></div>
          </div>
      </div>

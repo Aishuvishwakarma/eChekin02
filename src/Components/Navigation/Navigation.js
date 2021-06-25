@@ -5,7 +5,7 @@ function Navigation() {
 
 
   return (
- <nav className="navbar p-5 navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
+ <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between">
    <div className="logo">
       <h2>eCheckin</h2>
    </div> 

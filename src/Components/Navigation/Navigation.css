@@ -1,5 +1,6 @@
 nav{
     height: 100px;
+    padding: 0 100px;
 }
 nav h2{
     color: #ffc107;
@@ -13,8 +14,17 @@ nav ul button{
 .navbar-nav li{
     list-style: none;
 }
-@media screen and (max-width : 550px){
-    ul,ul li{
+@media screen and (max-width : 450px){
+    nav{
+        height: 100px;
+        padding: 0 20px;
+    }
+    nav ul button{
+        width: 80px;
+        height: 35px;
+        margin-left: 0px;
+    }
+    ul li{
         display: none;
     }
 }

@@ -13,7 +13,7 @@ function Detail() {
         <h2 id='heading'>Let's build the future of the workplace,together!</h2>
         <p>By referring potential clients or by becoming a reseller We're committed to<br />partnerships that provide value to the customers.</p>
         </div>
-        <div className="partner d-flex flex-column p-5 align-items-center text-center">
+        <div className="partner bg-dark d-flex flex-column align-items-center text-center">
             <h2 id='heading'>Become a partner</h2>
             <div id="prtnrLogo">Proxyclick</div>
             <div className="Rating">

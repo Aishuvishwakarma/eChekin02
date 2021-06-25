@@ -41,8 +41,8 @@ text-align: center;
 @media screen and (max-width : 600px){
     
 #imgmbl{
-    width: 200px;
-    height: 300px;
+    width: 170px;
+    height: 270px;
 }
 #text{
     text-align: left;
