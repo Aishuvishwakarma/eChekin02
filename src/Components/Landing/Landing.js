@@ -43,9 +43,9 @@ function Landing() {
            </div>
           </div>
           </div>
-          <div className="col d-flex flex-column justify-content-center ">
+          <div className="col landingCntn p-4">
            <h3>Contactless visitor <br />System</h3>
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br /> Laudantium tenetur officiis voluptatum quibusdam blanditiis rerum.</p>
           <div className="buttons">
           <button type="button" className="btn btn-warning  rounded-pill text-dark">
             <NavLink 
