@@ -108,7 +108,7 @@ bottom: 0;
 @media screen and (max-width : 550px){
     #landing{
         width: 100%;
-        height: 65vh;
+        height: 75vh;
     }
     #landing .container .row{
         height: 100%;
@@ -123,17 +123,16 @@ bottom: 0;
     margin: 20px 0;
 }
 .buttons{
-    width: 100%;
+    width: 100px;
     height: 30px;
+    font-size: 15px;
 }
 .buttons button:nth-child(1){
-    font-size: 10px;
-    padding: 7px 10px;
+    padding: 7px 12px;
     margin-bottom: 10px;
 }
 .buttons button:nth-child(2){
-    font-size: 12px;
-    width: 80px;
+    font-size: 15px;
 }
 
 .svgimg{
@@ -145,8 +144,8 @@ bottom: 0;
     height: 40px;
 }
 #svgimg1{
-    left: 25%;
-    top: 28%;
+    left: 18%;
+    top: 34%;
 }
 #svgimg2{
     right: 48%;
@@ -158,8 +157,8 @@ bottom: 0;
     bottom: 6%;
 }
 #landing .svgdiv .img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
 }
 #svgparent{
     width: 100%;
@@ -172,12 +171,12 @@ bottom: 0;
 top: 0;
 }
 .svgdiv{
-    width: 50%;
+    width: 65%;
 }
 .svgdiv button{
-    height: 30px;
-    padding: 3px 8px;
-    font-size: 7px;
+    height: 35px;
+    padding: 3px 15px;
+    font-size: 10px;
 }
 .landingCntn{
     align-items: center;

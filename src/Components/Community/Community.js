@@ -6,23 +6,23 @@ function Community() {
      <div className="row"  style={{height:'350px'}} >
        <div className="container p-4 d-flex flex-column justify-content-center align-items-center text-center" >
           <h2 id='heading'>Why leading companies & organisations<br/>choose eChecking </h2>
-          <div className="col-12 d-flex align-items-center justify-content-center">
-              <div className="col-3  p-3 flex-column  d-flex align-items-center justify-content-center">
+          <div className="row-12 CommunityiIcon">
+              <div className="col-3 flex-column  d-flex align-items-center justify-content-center">
               <div className="crcl">
               <i class="fas fa-user-shield"></i>
               </div><p id='txt'>Accepted by many Government institutions & coporates</p>
               </div>
-              <div className="col-3  p-3 flex-column d-flex align-items-center justify-content-center">
+              <div className="col-3 flex-column d-flex align-items-center justify-content-center">
               <div className="crcl">
               <i class="fas fa-tools"></i>
               </div><p id='txt'>Work with tools your team already uses for seamless implementations.</p>
               </div>
-              <div className="col-3  p-3 flex-column d-flex align-items-center justify-content-center">
+              <div className="col-3 flex-column d-flex align-items-center justify-content-center">
               <div className="crcl">
               <i class="fas fa-headphones-alt"></i>
               </div><p id='txt'>Count on our industry-leading customer Success team</p>
               </div>
-              <div className="col-3  p-3  flex-column  d-flex align-items-center justify-content-center">
+              <div className="col-3  flex-column  d-flex align-items-center justify-content-center">
               <div className="crcl">
               <i class="fas fa-shield-alt"></i>
               </div><p id='txt'>We take it very seriously,all the data is encrypted and stored in a secured server.</p>

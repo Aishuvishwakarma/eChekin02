@@ -43,23 +43,26 @@
     }
 @media screen and (max-width : 600px){
     #Covidsctn{
-        padding: 50px 0;
+        padding: 40px 0;
+    }
+    #Covidsctn #heading{
+        font-size: 30px;
     }
 #covidContent button{
-    font-size: 11px;
-    height: 30px;
-    width: 100px;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
     padding: 0px 10px;
 }
 #covidContent h2{
-    font-size: 18px;
+    font-size: 22px;
 }
 #covidContent .line{
-    width: 50px;
+    width: 70px;
     height: 3px;
 }
 #covidContent p{
-    font-size: 12px;
+    font-size: 15px;
 }
 .covidleft{
     width: 150px;

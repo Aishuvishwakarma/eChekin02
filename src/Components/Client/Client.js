@@ -8,8 +8,8 @@ function Client() {
     return (
      <div className="container-fluid" id="client">
      <div className="col-12 p-5 container h-100">
-    <div id='content' className="row-12  d-flex justify-content-center align-items-center">
-      <div className="col">
+    <div id='content' className="row-12 flexSection w-100">
+      <div className="col-5">
       <div id='clientContent'  className="row d-flex flex-column justify-content-center">
         <h2>Contactless visitor system</h2>
         <h3>How do we work?</h3>
@@ -19,14 +19,14 @@ function Client() {
         <button type="button" class="btn btn-warning  rounded-pill text-light mt-3">Leaen More</button>
       </div>
       </div>
-      <div className="col justify-content-center d-flex align-items-center">
+      <div className="col-5">
       <div className="illustration"><img src={bussiness} alt="" /></div>
       </div>
   </div>
   </div>
-  <div className="container-fluid  bg-light d-flex flex-column justify-content-center align-items-center text-center" >
+  <div className="container bg-light d-flex flex-column justify-content-center align-items-center text-center" >
           <h2 id='heading' className='mt-5'>Our Clinents</h2>
-          <div className="col-10 d-flex p-5 align-items-center justify-content-center">
+          <div className="col-12 d-flex p-5 align-items-center justify-content-center">
               <div className="col-3  p-3 flex-column  d-flex align-items-center justify-content-center">
               <img id='clientImg' src={shopify} alt="" />
               </div>

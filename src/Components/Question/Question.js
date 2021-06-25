@@ -5,7 +5,7 @@ function Question() {
     return (
         <div className="Question">
         <div className="col-10 container h-100 d-flex justify-content-center align-items-center">
-    <div id='content' className="row-12 d-flex justify-content-center align-items-center">
+    <div id='content' className="row-12">
       <div className="col">
       <div id='clientContent'  className="col d-flex flex-column justify-content-center">
         <h2>Got more questions to ask?</h2>
